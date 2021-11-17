@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="description" content="This is a webpage to learn html">
+  <meta name="keywords" content="html5,udemy,page">
+  <meta name="author" content="Sikiru Razak">
+  <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="base-img" style="background:url(pizzab.jfif)">
+  <div ></div>
+  <header>
+    <h1><i>Best pizza ever!!</i></h1>
+    <h2>come get yours homies!</h2>
+  </header>
+  <main>
+      <section id="contact-form">
+        <h3>place order</h3>
+        <form method="GET" action="place-order.php">
+          <h4>Delivery</h4>
+          <input name="deliverymethod" type="radio" value="delivery"/>Delivery <br />
+          <input name="deliverymethod" type="radio" value="pickup"/>Pickup <br />
+          <br />
+
+
+          <h4>Address</h4>
+          <input name="address1" placeholder="Address Line 1" class="lg-input" /><br />
+          <input name="address2" placeholder="Address Line 2" class="lg-input" /><br />
+
+          <input name="city" placeholder="City" class="sm-input" />
+          <input name="state" placeholder="State" class="sm-input" /><br />
+          <input name="zip" placeholder="Zip code" class="sm-input" />
+          <br />
+          <br />
+          <h4><b>Size</b></h4>
+          <select name="size">
+            <option value="12">12"-$12.99</option>
+            <option value="16">16"-$19.99</option>
+            <option value="18">18"-$23.99</option>
+            <option value="72">72"-$34.99</option>
+          </select>
+
+          <h4>Ingredients</h4>
+          <input name="ingredients" type="checkbox" value="pepperoni" /> Pepperoni <br />
+          <input name="ingredients" type="checkbox" value="salami"/> Salami <br />
+          <input name="ingredients" type="checkbox" value="sausage"/> Italian Sausage <br />
+          <input name="ingredients" type="checkbox" value="onions"/> Onions <br />
+          <input name="ingredients" type="checkbox" value="pepper"/> Pepper <br />
+          <input name="ingredients" type="checkbox" valie="bacon"/> Bacon <br />
+          <br />
+          <br />
+          <button type="submit">Place Order</button>
+          <br />
+          <br />
+
+        </form>
+       </section>
+  </main>
+  <footer>&copy; 2021</footer>
+  <a href="#">Terms Of Use</a>
+
+</body>
+</html>
